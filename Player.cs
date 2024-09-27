@@ -10,27 +10,47 @@ class Player
     }
 
     public void SetName() {
-        Console.WriteLine("Set name for player:");
-        Name = Console.ReadLine(); 
+        bool validNameInput = false;
+        
+        while (!validNameInput) {
+            Console.WriteLine("Set name for player:");
+            Name = Console.ReadLine();
+
+            if (string.IsNullOrWhiteSpace(Name)) {
+                Console.WriteLine("Invalid name.");
+            } else {
+                validNameInput = true;
+            }
+        }
     }
 
     public int ChooseHand() {
-        
-        Console.WriteLine("Choose 1) Rock 2) Paper 3) Scissors:");
-        string ChoiceStr = Console.ReadLine();
+        bool validInput = false;
 
-        Choice = int.Parse(ChoiceStr);
+        while (!validInput) {
+            Console.WriteLine("Choose 1) Rock 2) Paper 3) Scissors:");
+            string ChoiceStr = Console.ReadLine();
 
-        if (ChoiceStr == "1") {
-            Console.WriteLine("You chose 1) rock.");
-        } else if (ChoiceStr == "2") {
-            Console.WriteLine("You chose 2) paper.");
-        } else if (ChoiceStr == "3") {
-            Console.WriteLine("You chose 3) scissors.");
-        } else {
-            Console.WriteLine("Invalid choice. Please choose 1, 2, or 3.");
+            try {
+                Choice = int.Parse(ChoiceStr);
+
+                if (ChoiceStr == "1") {
+                    validInput = true;
+                    Console.WriteLine("You chose 1) rock.");
+                } else if (ChoiceStr == "2") {
+                    validInput = true;
+                    Console.WriteLine("You chose 2) paper.");
+                } else if (ChoiceStr == "3") {
+                    validInput = true;
+                    Console.WriteLine("You chose 3) scissors.");
+                } else {
+                    Console.WriteLine("Invalid choice. Please choose 1, 2, or 3.");
+                }
+            } catch (FormatException) {
+                Console.WriteLine("Invalid choice. Please choose 1, 2, or 3.");
+            }  
         }
-            
+        Console.WriteLine("-------------");
         return Choice;
     }
 
