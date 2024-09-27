@@ -1,0 +1,15 @@
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\bin\Debug\net8.0\Rock-Paper-Scissors.exe
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\bin\Debug\net8.0\Rock-Paper-Scissors.deps.json
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\bin\Debug\net8.0\Rock-Paper-Scissors.runtimeconfig.json
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\bin\Debug\net8.0\Rock-Paper-Scissors.dll
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\bin\Debug\net8.0\Rock-Paper-Scissors.pdb
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.AssemblyInfoInputs.cache
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.AssemblyInfo.cs
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.csproj.CoreCompileInputs.cache
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.sourcelink.json
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.dll
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\refint\Rock-Paper-Scissors.dll
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.pdb
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\Rock-Paper-Scissors.genruntimeconfig.cache
+C:\Users\innah\Desktop\Koulu\Olio-ohjelmointi\Rock-Paper-Scissors\obj\Debug\net8.0\ref\Rock-Paper-Scissors.dll
