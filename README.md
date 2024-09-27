@@ -6,6 +6,7 @@
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
 - [How to Play](#how-to-play)
+- [Future Improvements](#future-improvements)
 
 ## About
 This is a simple **Rock-Paper-Scissors** console application written in C#. The game allows the player to compete against the computer in multiple rounds, with the computer randomly selecting its moves. The project was developed as part of the coursework for an object-oriented programming (OOP) course at Lapland University of Applied Sciences. The game follows the classic rules of rock-paper-scissors:
@@ -53,3 +54,10 @@ To run the game, you will need the following installed:
 3. After each round, the result will be displayed.
 
 4. The game automatically ends when either the player or the computer wins 3 rounds. If you wish to stop the game before reaching this point, you can exit the program by pressing Ctrl + C in the terminal.
+
+## Future Improvements
+This section outlines additional features that could make the game more user-friendly and customizable in the future. Here are some potential future enhancements to improve the gameplay:
+
+- **Exiting with Confirmation**: Add the option to exit the game by pressing **q**, followed by a confirmation prompt asking if you really want to quit (e.g., "Are you sure you want to quit? (y/n)").
+  
+- **Set the Number of Rounds**: Allow the player to specify the number of rounds to play (e.g., 3, 5, or any custom number). The game would continue until either the player or the computer wins the specified number of rounds.
