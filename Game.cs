@@ -1,9 +1,9 @@
 class Game 
 {
     public String Winner { get; set; }
-    public int Round { get; set; }
-    public int PlayerHand { get; set; }
-    public int CpHand { get; set; }
+    private int Round { get; set; }
+    private int PlayerHand { get; set; }
+    private int CpHand { get; set; }
 
     Player player = new Player();
     Computer cp = new Computer();
@@ -13,7 +13,17 @@ class Game
         Round = 1;
     }
 
-    public void SetHands() {
+    public void Play() {
+        if (player.Name == null) {
+            player.SetName();
+        }
+        SetHands();
+        CheckRoundWinner();
+        ShowScoreboard();
+        CheckGameWinner();
+    }
+
+    private void SetHands() {
         PlayerHand = player.ChooseHand();
         CpHand = cp.RandomHand(); 
 
@@ -24,7 +34,7 @@ class Game
         Console.WriteLine($"Computer chose {cpHandText}");      
     }
 
-    public string NumberToSign(int num) {
+    private string NumberToSign(int num) {
         if (num == 1) {
             return "rock";
         } else if (num == 2) {
@@ -37,7 +47,7 @@ class Game
 
     }
 
-    public void CheckRoundWinner() {
+    private void CheckRoundWinner() {
         if (PlayerHand == 1 && CpHand == 3 ||
             PlayerHand == 2 && CpHand == 1 ||
             PlayerHand == 3 && CpHand == 2) {
@@ -51,7 +61,7 @@ class Game
         }
     }
 
-    public void CheckGameWinner() {
+    private void CheckGameWinner() {
         if (player.Wins == 3) {
             Winner = "Player";
             Console.WriteLine($"----- Player {player.Name} wins the game -----");
@@ -63,7 +73,7 @@ class Game
         }       
     }   
 
-    public void ShowScoreboard() {
+    private void ShowScoreboard() {
         Console.WriteLine("----- SCOREBOARD -----"); 
         Console.WriteLine($"Round: {Round}"); 
         Console.WriteLine($"Player {player.Name} score: {player.Wins}"); 

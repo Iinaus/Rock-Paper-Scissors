@@ -2,13 +2,16 @@
 {
     static void Main(string[] args)
     {
-        Game game = new Game();
+        try {
+            Game game = new Game();
 
-        while (game.Winner == null) {
-            game.SetHands();
-            game.CheckRoundWinner();
-            game.ShowScoreboard();
-            game. CheckGameWinner();
+            while (game.Winner == null) {
+                game.Play();
+            }         
+            
+        } catch (System.Exception e) {
+            Console.WriteLine($"Virheen tyyppi: {e.GetType()}");
+            Console.WriteLine($"Virheen viesti: {e.Message}");
         }
 
     }
