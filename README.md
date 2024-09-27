@@ -2,13 +2,13 @@
 
 ## Table of Contents
 - [About](#about)
--   [Features](#features)
+- [Features](#features)
 - [Prerequisites](#prerequisites)
 - [How to Run](#how-to-run)
 - [How to Play](#how-to-play)
 
 ## About
-This is a simple **Rock-Paper-Scissors** console application written in C#. The game allows the player to compete against the computer in multiple rounds, with the computer randomly selecting its moves. The project was developed as part of the coursework for an object-oriented programming (OOP) course at Lapland University of Applied Sciences.The game follows the classic rules of rock-paper-scissors:
+This is a simple **Rock-Paper-Scissors** console application written in C#. The game allows the player to compete against the computer in multiple rounds, with the computer randomly selecting its moves. The project was developed as part of the coursework for an object-oriented programming (OOP) course at Lapland University of Applied Sciences. The game follows the classic rules of rock-paper-scissors:
 
 - Rock beats Scissors
 - Paper beats Rock
@@ -16,7 +16,7 @@ This is a simple **Rock-Paper-Scissors** console application written in C#. The 
 
 After each round, the result will be displayed in scoreboard. The game continues until either the player or the computer wins 3 rounds.
 
-### Features
+## Features
 - User vs Computer gameplay.
 - Randomized moves by the computer.
 - Adding name for the player.
@@ -29,7 +29,7 @@ To run the game, you will need the following installed:
 ## How to Run
 1. **Clone the repository**:
     ```bash
-    git clone [https://github.com/your-username/rock-paper-scissors-csharp.git](https://github.com/Iinaus/Rock-Paper-Scissors.git)
+    git clone https://github.com/Iinaus/Rock-Paper-Scissors.git
     ```
 
 2. **Navigate to the project directory**:
